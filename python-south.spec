@@ -5,12 +5,12 @@
 %define 	module	south
 Summary:	South - schema and data migrations for Django projects
 Name:		python-%{module}
-Version:	0.7.5
-Release:	0.1
+Version:	0.8.4
+Release:	1
 License:	Apache v2.0
 Group:		Development/Languages/Python
 Source0:	http://www.aeracode.org/releases/south/%{module}-%{version}.tar.gz
-# Source0-md5:	69c73d67c953249f9c33a85de3ed5321
+# Source0-md5:	4b7da843d1a5f04ee02e0ba4904fcd88
 URL:		http://south.aeracode.org/
 BuildRequires:	python-distribute
 BuildRequires:	rpm-pythonprov
