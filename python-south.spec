@@ -9,7 +9,8 @@ Version:	0.8.4
 Release:	1
 License:	Apache v2.0
 Group:		Development/Languages/Python
-Source0:	http://www.aeracode.org/releases/south/%{module}-%{version}.tar.gz
+#Source0:	http://www.aeracode.org/releases/south/%{module}-%{version}.tar.gz
+Source0:	%{module}-%{version}.tar.gz
 # Source0-md5:	4b7da843d1a5f04ee02e0ba4904fcd88
 URL:		http://south.aeracode.org/
 BuildRequires:	python-distribute
