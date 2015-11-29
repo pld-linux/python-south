@@ -13,6 +13,7 @@ Group:		Development/Languages/Python
 Source0:	%{module}-%{version}.tar.gz
 # Source0-md5:	4b7da843d1a5f04ee02e0ba4904fcd88
 URL:		http://south.aeracode.org/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-distribute
 BuildRequires:	rpm-pythonprov
 Requires:	python-django
